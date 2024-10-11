@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spichy king</title>
+  <!-- font family-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet">
+  <!-- font family-->
+
+  <!-- font awesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- font awesome cdn -->
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <!-- overlay -->
+    <div class="overlay" id="overlay"></div>
+    <!-- header start here  -->
+    <header>
+      <div class="row flex">
+        <div class="col-lg-2 col-sm-2">
+          <div class="logo">
+            <a href="#">
+              <i class="fas fa-utensils fa-3x logo"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-10 col-sm-10 nav">
+          <ul class="verticle-nav">
+            <a href="#" class="active">Home</a>
+            <a href="#about-us">About us</a>
+            <a href="#menu-section">Food Menu</a>
+            <a href="#contact">Contact</a>
+          </ul>
+          <div class="hamburger">
+            <i class="fa-solid fa-bars bar"></i>
+          </div>
+          <!-- offscreen menu -->
+          <div class="off__screen__menu">
+            <span id="hamburger-close">&times;</span>
+
+            <ul>
+              <li>
+                <a href="#" id="nav__link">Home</a>
+              </li>
+              <li>
+                <a href="#about-us" id="nav__link">About us</a>
+              </li>
+              <li>
+                <a href="#food-section" id="nav__link">Food Menu</a>
+              </li>
+              <li>
+                <a href="#contact" id="nav__link"> Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </header>
+    <!-- header ends here  -->
+
+    <main>
+      <section id="banner-section">
+        <div class="banner-contents">
+          <h1>Spicy King Resturant</h1>
+          <p>20% discounts for take away</p>
+          <button class="btn">Order Now</button>
+        </div>
+      </section>
+
+      <section id="about-us">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="about-us-contents">
+        <h3 class="h-underline">About Us</h3>
+        <p>
+          Welcome to Spicy King Restaurant, where flavor meets tradition! We pride ourselves on offering a delightful culinary journey that brings the vibrant and aromatic tastes of our region to your plate. From our famous Chicken Vhuna to the rich and savory Mutton Korma, every dish is prepared with the freshest ingredients and a passion for perfection.
+          <br /><br />
+          Established in the heart of Bogura, Spicy King is more than just a restaurant; it's a place where friends, families, and food lovers gather to enjoy a warm atmosphere, delicious meals, and exceptional service. Whether you're dining in or taking away, we promise a satisfying experience that will leave you coming back for more.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+      <section id="menu-section">
+        <h1 class="h-underline">Food Menu</h1>
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card">
+              <div class="card-body">
+                <img src="images/food card 1.jpg" alt="" />
+                <div class="item-desc">
+                  <h3 class="item-name">Chiken Vhuna</h3>
+                  <p>Item No: 101</p>
+                  <p>Ratin: 4/5</p>
+                  <p>Price: 250 Tk.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card">
+              <div class="card-body">
+                <img src="images/beef-curry.jpg" alt="" />
+                <div class="item-desc">
+                  <h3 class="item-name">Beef Curry</h3>
+                  <p>Item No: 101</p>
+                  <p>Ratin: 4/5</p>
+                  <p>Price: 250 Tk.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card">
+              <div class="card-body">
+                <img src="images/fish fry.jpg" alt="" />
+                <div class="item-desc">
+                  <h3 class="item-name">Fish Fry</h3>
+                  <p>Item No: 101</p>
+                  <p>Ratin: 4/5</p>
+                  <p>Price: 250 Tk.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card ">
+              <span class="offer"></span>
+              <div class="card-body">
+                <img src="images/Mutton Korma.jpg" alt="" />
+                <div class="item-desc">
+                  <h3 class="item-name">Mutton Korma</h3>
+                  <p>Item No: 101</p>
+                  <p>Ratin: 4/5</p>
+                  <p>Price: 250 Tk.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2 class="h-underline">Contact</h2>
+        <div class="row">
+          <div class="col-lg-8 col-md-5 col-sm-12 ifram">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115860.77945576546!2d89.28783597433807!3d24.841662160032374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fc54e7e81df441%3A0x27133ed921fe73f4!2sBogura!5e0!3m2!1sen!2sbd!4v1707905284367!5m2!1sen!2sbd"
+              style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="col-lg-4 col-md-5 col-sm-12">
+            <div class="contact-details">
+              <h3>Content Details</h3>
+              <br />
+              <div>
+                <h5>Spicy King Resturant</h5>
+                <address>Bogura, Dattabari</address>
+                <br />
+              </div>
+              <div>
+                <h5>Phone:</h5>
+                <p>+8801743392608</p>
+              </div>
+              <br />
+              <div>
+                <h5>Opening Hours:</h5>
+                <p>Tue-sun: 5pm to 11pm Inc. Bank Holidays</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="row">
+        <div class="col-lg-6">
+          <p>&copy; All rigths reserved by spicy king Resturant</p>
+        </div>
+        <div class="col-lg-6">
+          <div class="social-menus">
+            <a href="#"><i class="icon-style fas fa-arrow-up"></i></a>
+            <a href="#"><i class="icon-style fab fa-facebook-f"></i></a>
+            <a href="#"><i class="icon-style fab fa-youtube"></i></a>
+            <a href="#"><i class="icon-style fab fa-twitter"></i></a>
+            <a href="#"><i class="icon-style fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="scrip.js"></script>
+</body>
+
+</html>
